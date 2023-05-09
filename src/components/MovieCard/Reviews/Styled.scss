@@ -1,0 +1,34 @@
+.reviews {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px solid #90a4ae;
+    border-radius: 4px;
+    padding: 8px;
+  }
+
+  &__meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__user {
+    color: #2979ff;
+  }
+
+  &__user,
+  &__created,
+  &__rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+}
